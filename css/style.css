@@ -131,6 +131,16 @@ button:hover {
 
 .burger-menu {
   display: none;
+  margin-right: 35px;
+  width: 23px;
+  height: 30px;
+
+  background-image: url("../svg/burger-menu.svg");
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  background-position: center;
+  background-size: contain;
 }
 
 .header-title {
@@ -138,11 +148,11 @@ button:hover {
   text-transform: uppercase;
   text-align: center;
   font-size: 45px;
-  letter-spacing: 3px;
   line-height: 75px;
   
-  margin-top: 55px;
-  padding: 0 200px;
+  width: 700px;
+  margin-top: 70px;
+  margin-bottom: 40px;
 }
 
 /* ======================= TRENDS ======================= */
@@ -160,6 +170,7 @@ h2.products-title {
 .trend-card {
   display: flex;
   align-items: flex-end;
+  justify-content: center;
 
   background-repeat: no-repeat;
   background-position: center center;
@@ -315,7 +326,6 @@ h2.products-title {
 
 .text > p {
   font-size: 15px;
-  letter-spacing: 1px; 
   line-height: 22px;
   color: #0f0d0e;
   
@@ -342,9 +352,6 @@ h2.products-title {
 }
 
 .section-title::after {
-  position: absolute;
-  right: 0;
-  left: 0;
   content: "";
   display: block;
   width: 66px;
@@ -774,15 +781,15 @@ h2.popup-title {
   }
   
   .burger-menu {
-    position: absolute; 
-    right: 35px;
-    top: 30px;
-
     display: inline-block;
   }
 
   .header-title {
-    padding: 0 65px;
+    font-size: 40px;
+    line-height: 55px;
+    width: 605px;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 
   .content {
@@ -837,7 +844,6 @@ h2.popup-title {
 
   .trend-card {
     width: calc((100% - 4px) / 2);
-    justify-content: center;
   } 
 }
 
@@ -855,8 +861,9 @@ h2.popup-title {
   
   .burger-menu {
     position: absolute; 
-    right: 45px;
+    right: 16px;
     top: 30px;
+    margin: 0;
 
     display: inline-block;
   }
@@ -870,9 +877,9 @@ h2.popup-title {
   }
 
   .header-title {
+    width: 328px;
     font-size: 26px;
     line-height: 36px;
-    padding: 0 45px;
     margin-top: 45px;
   }
 
@@ -882,7 +889,6 @@ h2.popup-title {
 
   .trend-card {
     width: 100%;
-    justify-content: center;
   } 
 
   .content {
@@ -970,6 +976,5 @@ h2.popup-title {
 
   .trend-card {
     width: calc((100% - 4px) / 2);
-    justify-content: center;
   } 
 }
